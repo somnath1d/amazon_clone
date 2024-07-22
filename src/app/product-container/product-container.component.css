@@ -1,0 +1,26 @@
+.product{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #efcece;
+    margin: 2.5%;
+    padding: 1%;
+
+    >img{
+        height: 80%;
+        width: 90%;
+        object-fit: contain;
+    }
+
+    >.brand{
+        margin : 0px;
+    }
+    >.product_name{
+        margin : 0px;
+        font-size: small;
+    }
+    >.price{
+        margin : 0px;
+        font-size: small;
+    }
+}
